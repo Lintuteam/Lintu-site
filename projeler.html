@@ -1,0 +1,18 @@
+<!DOCTYPE html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"><title>Projeler ve Ar-Ge Lab | LİNTu Team</title><meta name="description" content="LİNTu Team projeleri: uydu görüntülerinden değişim tespiti ve çok dilli akıllı fiş ajanı vaka analizleri."></head><body data-p="projeler"><div id="hd"></div><main>
+<section class="w"><h1>Projeler ve Ar-Ge Lab</h1><h2 style="margin-top:28px">Yüzeysel kodlar değil, derinleşen yapay zeka mimarileri</h2>
+<p>LİNTu Team olarak projelerimizi sadece 2 cümlelik özet kartlarıyla sunmuyoruz. Geliştirdiğimiz her çalışmayı; gerçek saha problemi, kullandığımız veri setleri, kendi eğittiğimiz yapay zeka modelleri (bilgisayarlı görü ve LLM) ve sistem mimari diyagramlarıyla birer vaka analizi olarak belgeliyoruz.</p></section>
+<section class="w" style="padding-top:0"><div class="g">
+<article class="card"><span class="tag go">NASA Space Apps ve YTÜ</span><span class="tag wip">Hazırlık aşamasında</span><h2 style="margin-top:12px;font-size:1.6rem">Uydu görüntülerinden değişim tespiti ve afet analiz ajanı</h2>
+<dl><dt>Problem</dt><dd>Doğal afetler ve iklim değişikliği sonrası geniş alanlardaki tahribatın elle tespit edilmesi çok zaman alır ve yetersiz kalır.</dd>
+<dt>Görüntü işleme</dt><dd>Roboflow ve Google Colab üzerinde 50+ epoch eğitilmiş özel YOLOv8 nesne tespit modeli. OpenCV tabanlı <code>warpPerspective</code> ve <code>absdiff</code> ile değişim tespiti.</dd>
+<dt>LLM ve RAG ajanı</dt><dd>NASA Earthdata ve bilimsel makalelerle beslenen, LangChain ve Google Gemini API entegrasyonlu “NASA AI Co-Pilot” teknik asistanı.</dd>
+<dt>Veri setleri</dt><dd>NASA Earthdata, Copernicus (Sentinel-2) uydu görüntüleri ve Roboflow Universe üzerinde elle etiketlenmiş özel veri setleri.</dd>
+<dt>Arayüz ve çıktı</dt><dd>Streamlit ve Folium harita altyapısı. Kullanıcı zaman serili uydu fotoğraflarını kaydırmalı karşılaştırır ve canlı yapay zeka raporu alır. Komuta merkezi paneli olarak tasarlandı.</dd></dl></article>
+<article class="card"><span class="tag go">PayPal AI Hackathon</span><span class="tag wip">Devam ediyor</span><h2 style="margin-top:12px;font-size:1.6rem">Global Smart Receipt & Expense Agent</h2>
+<dl><dt>Problem</dt><dd>Farklı dillerdeki, karmaşık veya karanlık çekilmiş fiş ve fatura görsellerini elle takip etmek, döviz ve bütçe analizi yapmak zordur.</dd>
+<dt>Ön işleme</dt><dd>OpenCV <code>threshold</code> ve gürültü temizleme algoritmalarıyla eğik, karanlık fişlerin düzeltilmesi.</dd>
+<dt>Multimodal yapay zeka</dt><dd>Görsel ve metni birlikte işleyen Gemini prompt zinciri. Fiş üzerindeki kalemleri, vergileri ve fiyatları JSON formatına dönüştürür.</dd>
+<dt>Veri setleri</dt><dd>Türkçe, İngilizce ve Almanca, 30+ farklı formatta test fişi.</dd>
+<dt>Arayüz ve çıktı</dt><dd>Streamlit Community Cloud'da yayınlanan finansal koç uygulaması. Harcama kategorilerini ve kişi başı bölüşümü Plotly ile gösterir.</dd></dl></article>
+</div><p class="mu" style="margin-top:20px">Kod depoları ve canlı demo bağlantıları, projeler tamamlandıkça bu sayfaya eklenecektir.</p></section>
+</main><div id="ft"></div><script src="site.js"></script></body></html>
